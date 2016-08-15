@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+     
+{% block content %}
+	{% for post in posts %}
+		<br>
+		<div class="container announcement dropshadow">
+			<div class="titlebar">
+				<div class="date blue-bg"><time datetime="{{post.created|date:"c"}}">{{post.created|date}}</time></div><div class="title"> {{post.title}} </div>
+			</div>
+			<div class="announcement-body">
+				<p> {{post.content|safe}} </p>
+			</div>
+		</div>
+		<br>
+	{% endfor %}
+{% endblock %}

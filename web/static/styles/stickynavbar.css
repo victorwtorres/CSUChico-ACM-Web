@@ -1,0 +1,30 @@
+.nav {
+    margin-left: 20px;
+    float:left;
+}
+
+.navbar {
+    border: 0px;
+    background: rgba(0,0,0,0);
+    min-width: 200px;
+}
+
+.navbar-default {
+    box-shadow: none;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color:white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color:#EEE;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}

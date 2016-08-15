@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+	{% for link in links %}
+		<br>
+		<div class="container announcement dropshadow">
+			<div class="link-title-left blue-bg">{{link.title}}</div>
+        <div class="title"> <a href={{link.content}}>{{link.content}}</a></div>
+			</div>
+		</div>
+		<br>
+	{% endfor %}
+{% endblock %}

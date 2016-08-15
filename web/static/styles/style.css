@@ -1,0 +1,270 @@
+* {
+    margin:0;
+}
+
+body {
+    min-width: 200px;
+}
+
+.wrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+h1 {
+    color: white;
+    font-style: bold;
+}
+
+h2{
+   color: white;
+   font-style: bold;
+}
+
+#header {
+    height: 200px;
+    padding:0px;
+
+}
+
+#top-container {
+    padding: 10px;
+}
+
+#banner {
+    margin-top: 40px;
+    width:800px;
+    height:100px;
+}
+
+#logo {
+    margin-top:12px;
+    margin-right: 1em;
+    width:10%;
+}
+
+#banner-text {
+    padding:15px;
+    width: 90%;
+}
+
+#banner-text > h1 {
+    font-size: 2.4em;
+}
+
+.floatleft {
+    float:left;
+}
+
+.floatright {
+    float:right;
+}
+
+.blue-bg{
+    background-color: #85283c;
+}
+
+#seal {
+    overflow: hidden;
+    z-index: 20;
+}
+
+.sealmask {
+    overflow: hidden;
+    margin-left: 720px;
+    margin-top: -170px;
+    clear:both;
+    position: absolute;
+    z-index: 21;
+    -webkit-clip-path: inset(0 0 280px 0);
+    clip-path: inset(0 0 280px 0);
+}
+
+.rotate{
+    overflow: hidden;
+    -webkit-animation: rotation 240s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(359deg);}
+    to   {-webkit-transform: rotate(0deg);}
+}
+
+.centered {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.menu {
+    position: absolute;
+    top:200px;
+    width:100%;
+    height:50px;
+    z-index: 11;
+}
+
+.overflow-scroll {
+    overflow: auto;
+}
+
+.space {
+    margin-top: 50px;
+}
+
+#main-body{
+    margin-top:80px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.no-padding {
+
+    padding-right: 0px;
+    padding-left:  0px;
+
+}
+
+#calendar {
+    margin-top:20px;
+    width: 100%;
+}
+
+.calendar-container {
+    margin-left:10px;
+    height:200px;
+}
+
+#calendar-header {
+    font: 24px/1.5 "Helvetica";
+    border-bottom: 1px solid #999;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.picture {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin:auto;
+    margin-top:20px;
+    background-size: cover;
+}
+
+.profile {
+    width: 130px;
+    height:240px;
+    font-size: 14px;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    color: #333;
+    background-color: white;
+    float:left;
+}
+
+#members {
+    margin-top:20px;
+}
+
+.member-container {
+    display: inline-block;
+    margin-left:10px;
+}
+
+#member-header {
+    font: 24px/1.5 "Helvetica";
+    border-bottom: 1px solid #999;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.dropshadow {
+    border: solid 1px #999;
+    -moz-box-shadow: 4px 4px 0px #999;
+    -webkit-box-shadow: 4px 4px 0px #999;
+    box-shadow: 4px 4px 0px #999;
+}
+
+.fixed {
+    -webkit-transform: translate3d(0, 0, 0);
+    position:fixed;
+    top:0;
+}
+
+.max-width {
+    max-width: 1155px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.announcement {
+
+}
+
+.announcement-body {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container.announcement {
+    padding: 0px;
+}
+
+.titlebar {
+    border-bottom: solid 1px #999;
+    width:100%;
+    display:inline-block;
+}
+
+.link_container {
+  color: #111;
+  font: 20px/1.5 "Helvetica";
+  padding: 0 20px;
+}
+
+.title {
+    float:left;
+    color: #111;
+    font: 20px/1.5 "Helvetica";
+    padding: 0 20px;
+}
+
+.date {
+    height: 35px;
+    float:left;
+    color: white;
+    font: 22px/1.5 "Helvetica";
+    font-style: bold;
+    padding-left:7px;
+    padding-right: 10px;
+}
+
+.link-title {
+    color: white;
+    font: 22px/1.5 "Helvetica";
+    font-style: bold;
+    padding: 5px;
+
+}
+
+.link-title-left {
+    height: 40px;
+    float:left;
+    color: white;
+    font: 22px/1.5 "Helvetica";
+    font-style: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#footer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+}
