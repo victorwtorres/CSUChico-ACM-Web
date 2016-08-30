@@ -18,8 +18,8 @@ server {
         server_name acmcsuchico.com www.acmcsuchico.com;
 
         add_header Strict-Transport-Security "max-age=31536000";
-        ssl_certificate /etc/letsencrypt/live/acmcsuchico.com/fullchain.pem;
-        ssl_certificate_key /etc/letsencrypt/live/acmcsuchico.com/privkey.pem;
+        ssl_certificate /etc/letsencrypt/live/acmcsuchico.com/fullchain1.pem;
+        ssl_certificate_key /etc/letsencrypt/live/acmcsuchico.com/privkey1.pem;
 
         location = /favicon.ico { access_log off; log_not_found off; }
 
@@ -38,4 +38,3 @@ server {
             proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         }
 }
-

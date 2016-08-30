@@ -24,7 +24,6 @@ urlpatterns = [
         url(r'^schedule.html', views.schedule),
         url(r'^links.html', views.links),
         url(r'^subscribe.html', views.subscribe),
-        url(r'^competition', views.competition),
         url(r'^rules', views.rules),
 ]
 
